@@ -24,3 +24,8 @@ exports.getTour = (req, res) => {
     title: 'The forest hiker'
   });
 };
+exports.login = (req, res) => {
+  res.render('login', {
+    title: 'Login'
+  });
+};
